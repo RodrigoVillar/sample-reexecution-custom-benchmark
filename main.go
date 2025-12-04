@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"flag"
+	"fmt"
 	"os"
 	"strconv"
 
@@ -56,7 +57,7 @@ func newBenchmarkTool(name string) *benchmarkTool {
 // This is analogous to calling `b.ReportMetric()`.
 func (b *benchmarkTool) addResult(value float64, unit string) {
 	result := benchmarkResult{
-		Name:  b.name,
+		Name:  fmt.Sprintf("%s - %s", b.name, unit),
 		Value: strconv.FormatFloat(value, 'f', -1, 64),
 		Unit:  unit,
 	}
