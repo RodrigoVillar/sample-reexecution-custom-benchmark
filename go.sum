@@ -1,0 +1,4 @@
+github.com/ava-labs/avalanchego v1.14.0 h1:0j314N1fEwstKSymvyhvvxi8Hr752xc6MQvjq6kGIJY=
+github.com/ava-labs/avalanchego v1.14.0/go.mod h1:7sYTcQknONY5x5qzS+GrN+UtyB8kX7Q5ClHhGj1DgXg=
+github.com/google/renameio/v2 v2.0.0 h1:UifI23ZTGY8Tt29JbYFiuyIU3eX+RNFtUwefq9qAhxg=
+github.com/google/renameio/v2 v2.0.0/go.mod h1:BtmJXm5YlszgC+TD4HOEEUFgkJP3nLxehU6hfe7jRt4=
