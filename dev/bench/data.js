@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764858373270,
+  "lastUpdate": 1764858605767,
   "repoUrl": "https://github.com/RodrigoVillar/sample-reexecution-custom-benchmark",
   "entries": {
     "Benchmark": [
@@ -67,6 +67,50 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/RodrigoVillar/sample-reexecution-custom-benchmark/commit/b1aaedb0653062262870abb1612a167852e1cca5"
         },
         "date": 1764858372469,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "BenchmarkReexecuteRange/[1,50000]-Config-default-Runner-dev - block_accept_ms/ggas",
+            "value": 1.3,
+            "unit": "block_accept_ms/ggas"
+          },
+          {
+            "name": "BenchmarkReexecuteRange/[1,50000]-Config-default-Runner-dev - block_parse_ms/ggas",
+            "value": 2.4,
+            "unit": "block_parse_ms/ggas"
+          },
+          {
+            "name": "BenchmarkReexecuteRange/[1,50000]-Config-default-Runner-dev - block_verify_ms/ggas",
+            "value": 3.5,
+            "unit": "block_verify_ms/ggas"
+          },
+          {
+            "name": "BenchmarkReexecuteRange/[1,50000]-Config-default-Runner-dev - mgas/s",
+            "value": 4,
+            "unit": "mgas/s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rodrigo.villar@avalabs.org",
+            "name": "Rodrigo Villar",
+            "username": "RodrigoVillar"
+          },
+          "committer": {
+            "email": "rodrigo.villar@avalabs.org",
+            "name": "Rodrigo Villar",
+            "username": "RodrigoVillar"
+          },
+          "distinct": true,
+          "id": "83225e9382075b78393b841e33c927cb9fb909b2",
+          "message": "docs: update for naming",
+          "timestamp": "2025-12-04T09:29:28-05:00",
+          "tree_id": "0c53e7948e9b6e7550800ba6daa3606de7a01c71",
+          "url": "https://github.com/RodrigoVillar/sample-reexecution-custom-benchmark/commit/83225e9382075b78393b841e33c927cb9fb909b2"
+        },
+        "date": 1764858605296,
         "tool": "customBiggerIsBetter",
         "benches": [
           {
