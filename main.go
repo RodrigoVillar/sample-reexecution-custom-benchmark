@@ -21,7 +21,7 @@ func main() {
 
 	benchmarkTool.addResult(1.1, "block_accept_ms/ggas")
 	benchmarkTool.addResult(2.2, "block_parse_ms/ggas")
-	benchmarkTool.addResult(3.3, "block_verify_ms/ggas")
+	benchmarkTool.addResult(3.4, "block_verify_ms/ggas")
 	benchmarkTool.addResult(4.0, "mgas/s")
 
 	benchmarkTool.saveToFile(benchmarkOutputFileArg)
